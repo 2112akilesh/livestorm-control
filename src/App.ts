@@ -1,7 +1,7 @@
 import Livestorm from '@livestorm/plugin'
 
 const template = require('./template/game.html').default
-const basisControl = require('./template/basicControl.html').default
+//const basisControl = require('./template/basicControl.html').default
 
 
 export default function () {
@@ -77,15 +77,8 @@ export default function () {
 
 
   //------------------------Basic controll--------------------
-  Livestorm.PubSub.subscribe('game', (data) => {
-    Livestorm.Streams.addStream({
-      title: 'basic-controll',
-      imageUrl: 'https://www.pngitem.com/pimgs/m/117-1178877_let-s-play-pixel-game-controller-png-transparent.png',
-      template: basisControl,
-      variables: { querry: data.todo },
-      onMessage: () => console.log('Game started'),
-    });
-  })
+  // Livestorm.PubSub.subscribe('basic', (data) => {
+  // })
 
 
 }
