@@ -1,0 +1,19 @@
+<script>
+    const gameUrl = "{{gameId}}";
+    console.log( gameUrl );
+</script>
+
+<body>
+    <iframe id="game" src={{gameUrl}} scrolling="no">
+        Your browser doesn't support iframes
+    </iframe>
+</body>
+
+<style>
+    iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+</style>
