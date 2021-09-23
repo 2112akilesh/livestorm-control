@@ -42,3 +42,8 @@ Get started building your own plugins and leverage the power of livestorm or dis
 
 [<img src="https://raw.githubusercontent.com/livestorm/livestorm-plugin-cli/master/src/assets/docs-link.png" width="120px">](https://developers.livestorm.co/docs/getting-started-with-plugins-sdk/)
 
+# Application screen shot
+<img src="https://github.com/2112akilesh/livestorm-control/blob/main/assets/full%20demo%201.jpg" />
+<img src="https://github.com/2112akilesh/livestorm-control/blob/main/assets/full%20demo%202.jpg" />
+<img src="https://github.com/2112akilesh/livestorm-control/blob/main/assets/full%20demo%203.jpg" />
+<img src="https://github.com/2112akilesh/livestorm-control/blob/main/assets/full%20demo%204.jpg" />
